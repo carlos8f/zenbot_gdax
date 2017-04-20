@@ -1,7 +1,7 @@
 module.exports = {
   _ns: 'zenbot',
   _name: 'gdax',
-  _maps: [
-    require('./exchanges/_codemap')
-  ]
+
+  'exchanges.gdax': require('./exchange'),
+  'exchanges.list[]': '#exchanges.gdax'
 }
