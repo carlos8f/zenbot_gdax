@@ -3,6 +3,6 @@
   "version": "4.0.0-alpha",
   "description": "zenbot4 supporting code for GDAX",
   "dependencies": {
-    "micro-request": "^666.0.8"
+    "micro-request": "^666.0.10"
   }
 }
